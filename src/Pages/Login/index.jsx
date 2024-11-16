@@ -90,7 +90,7 @@ const handleLogin = async (e) => {
 
         <div className='w-full flex flex-col my-4'>
           <button onClick={ handleLogin}className='w-full bg-[#060606] my-2 text-white p-4 rounded-md  flex item-center justify-center'>Login</button>
-
+          {error && <p className='error-message'>{error}</p>}
         </div>
 
 <div className='w-full flex items-center justify-center'>
