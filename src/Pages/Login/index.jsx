@@ -26,11 +26,11 @@ const  handleChange =(e) =>{
   }
 } 
 
-useEffect(() => {
-  return () => {
-    dispatch(clearState());
-  };
-}, []);
+// useEffect(() => {
+//   return () => {
+//     dispatch(clearState());
+//   };
+// }, []);
 
 
 const handleLogin = async (e) => {
